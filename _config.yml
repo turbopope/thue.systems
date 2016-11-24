@@ -31,3 +31,5 @@ exclude:
   - Gemfile.lock
 sass:
     sass_dir: _sass
+kramdown:
+  auto_ids: true
