@@ -4,15 +4,15 @@
   {% include head.html %}
 </head>
 <body>
-  <section class="header">
-    {% include header.html %}
-  </section>
-  <h2>{{ page.title }}</h2>
-  <section class="content">
-    {{ content }}
-  </section>
-  <section class="footer">
-    {% include footer.html %}
-  </section>
+  {% include header.html %}
+  <main>
+    <div class="container">
+        <h2>{{ page.title }}</h2>
+        <section class="content">
+            {{ content }}
+        </section>
+    </div>
+  </main>
+  {% include footer.html %}
 </body>
 </html>

@@ -1,8 +1,12 @@
-<h1>{{ site.title }}</h1>
-<ul>
-{% for page in site.pages %}
-  {% if page.layout != null %}
-    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-  {% endif %}
-{% endfor %}
-</ul>
+<nav>
+  <div class="nav-wrapper container">
+    <a href="/" class="brand-logo">{{ site.title }}</a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      {% for page in site.pages %}
+        {% if page.layout != null %}
+          <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</nav>
