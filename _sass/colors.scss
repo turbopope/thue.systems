@@ -14,6 +14,7 @@ $error-color: color("red", "base");
 $link-color: $secondary-color;
 
 $text-color-dark: color("grey", "darken-4");
+$card-link-color: $link-color;
 
 body {
   background-color: color("grey", "lighten-5");
