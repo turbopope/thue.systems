@@ -1,15 +1,14 @@
 $(document).ready(function() {
   $('#spinner-switcher').change(function() {
     if($(this).is(":checked")) {
-      console.log("enabled");
       $('.spinner').each(function(){
         $(this).show();
       });
       $('.spinner-disabled').each(function(){
         $(this).hide();
       });
+      $('html, body').animate({ scrollTop: 0 }, 'fast');
     } else {
-      console.log("disabled");
       $('.spinner').each(function(){
         $(this).hide();
       });
