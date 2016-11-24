@@ -12,3 +12,7 @@ $secondary-color-light: lighten($secondary-color, 50%);
 $success-color: color("green", "base");
 $error-color: color("red", "base");
 $link-color: $secondary-color;
+
+body {
+  background-color: color("grey", "lighten-5");
+}
