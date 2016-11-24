@@ -2,16 +2,48 @@
 layout: default
 ---
 
-{{content}}
+<div class="title">{{ site.title }}</div>
+<div class="subtitle">{{ site.description }}.</div>
 
-<a class="waves-effect waves-light btn">button</a>
-<a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a>
-<a class="waves-effect waves-light btn"><i class="material-icons right">cloud</i>button</a>
+
+<h3>Download</h3>
+
+<div class="row">
+  <div class="col m12 l6">
+    <div class="card horizontal">
+      <div class="valign-wrapper"><div class="card-image valign" style="max-width: 256px">
+        <img src="/img/logo.png" style="max-width: 100%; padding: 8px;">
+      </div></div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p>
+            Download the latest* version of Thue here.
+          </p>
+            <p style="padding-left: 30px">
+
+            <br>
+            Version: <code>0.9.6</code>
+            <br>
+            Date: <code>2016-22-23</code>
+            <br>
+            <a href="/changelog#latest">Changelog</a>
+          </p>
+        </div>
+        <div class="card-action">
+          <a class="waves-effect waves-teal btn-flat" href="http://dropbox.com/">Download APK</a>
+          <a class="waves-effect waves-teal btn-flat primary" href="http://play.google.com/" disabled>Install</a>
+        </div>
+      </div>
+    </div>
+    <p><small>* Thue is still in <a href="https://en.wikipedia.org/wiki/Software_release_life_cycle#Pre-alpha">Pre-alpha</a> and even the latest version is thus probably broken, incomplete, ugly and boring.</small></p>
+  </div>
+</div>
+
 
 <h3>Latest Ramblings</h3>
 
 <ul>
 {% for post in site.posts %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    <li><a href="{{ post.url }}">{{ post.date | date_to_string }} - {{ post.title }}</a></li>
 {% endfor %}
 </ul>
