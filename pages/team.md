@@ -6,7 +6,7 @@ layout: default
 
 ## About Us
 
-We are a Computer Science Student and a Computer Visualistics Student from [Koblenz, Germany](https://www.google.de/maps/place/Koblenz/@50.3454273,7.5885547,12z/), interested in good design and games. You can probably see where the inspiration for this game came from. Together we founded\* **turbopope** this year with the intention to create beautiful games and establish a name for ourselves.
+We are a Computer Science Student and a Computer Visualistics Student from [Koblenz, Germany](https://www.google.de/maps/place/Koblenz/@50.3454273,7.5885547,12z/), interested in good design and games. You can probably see where the inspiration for this game came from. Together we founded\* our games-company **turbopope** this year with the intention to create beautiful games and establish a name for ourselves.
 
 <small>\*We mean *founded* in an abstract, more *spiritual* sense here, since we didn't actually register a trade or anything yet.</small>
 
