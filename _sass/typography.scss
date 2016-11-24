@@ -9,8 +9,13 @@ body {
     font-weight: 400;
   }
 
-  nav ul a{
-    font-size: 15pt;
+  nav {
+    .brand-logo{
+      font-size: 3rem;
+    }
+    ul a{
+      font-size: 15pt;
+    }
   }
 }
 
