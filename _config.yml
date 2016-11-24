@@ -42,3 +42,5 @@ latest_version:
 bugtracker: https://gitlab.uni-koblenz.de/mbrack/thue/issues
 website_repo: https://github.com/turbopope/thue.systems
 app_repo: https://gitlab.uni-koblenz.de/mbrack/thue/
+html_tags: "App, Android, Game, Computer Science"
+html_author: "Marco Brack"
