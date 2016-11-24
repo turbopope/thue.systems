@@ -1,5 +1,5 @@
 {% for page in site.pages %}
-  {% if page.layout != null and page.title != "Home" %}
+  {% if page.layout != null and page.title != "Home" and page.title != "Impressum" %}
     <li><a href="{{ page.url }}">{{ page.title }}</a></li>
   {% endif %}
 {% endfor %}

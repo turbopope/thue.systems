@@ -1,5 +1,5 @@
 ---
-title: impressum
+title: Impressum
 permalink: /impressum/
 layout: default
 ---
