@@ -1,4 +1,1 @@
-<span class="fa-stack">
-  <i class="fa fa-square fa-stack-2x fa-counter-spin text-{{include.color}}"></i>
-  <i class="fa fa-null fa-stack-1x fa-inverse fa-spin" style="font-family: comfortaa">{{include.letter}}</i>
-</span>
+<span class="fa-stack spinner" style="display:none"><i class="fa fa-square fa-stack-2x fa-spin text-{{include.color}}"></i><i class="fa fa-null fa-stack-1x fa-inverse fa-spin" style="font-family: comfortaa">{{include.word|slice: 0}}</i></span><span class="spinner-disabled">{{include.word|slice: 0}}</span>{{include.word|slice: 1, 1000}}
