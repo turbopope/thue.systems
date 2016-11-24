@@ -1,0 +1,14 @@
+.side-nav {
+  color: $text-color-dark;
+
+  .brand-logo-side {
+    font-size: 23pt;
+    color: $froly;
+  }
+
+  background-color: color("grey", "lighten-5");
+
+  hr {
+    border: 1px solid color("grey", "lighten-3");
+  }
+}

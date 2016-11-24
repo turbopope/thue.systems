@@ -13,6 +13,8 @@ $success-color: color("green", "base");
 $error-color: color("red", "base");
 $link-color: $secondary-color;
 
+$text-color-dark: color("grey", "darken-4");
+
 body {
   background-color: color("grey", "lighten-5");
 }
