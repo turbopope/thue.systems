@@ -7,10 +7,16 @@ layout: default
 </p>
 
 <div class="row">
+  {% if page.img %}
   <div class="col s12 m6">
     <img src="/img/posts/{{ page.img | default: "default.jpg" }}" alt="{{ page.img }}" style="max-width: 100%; height:auto; padding: 12px">
   </div>
   <div class="col s12 m6">
+    <h2>{{ page.title }} <small><span class="faint">{{ page.date | date_to_string }}</span></small></h2>
+    {{ page.content }}
+  </div>
+  {% endif %}
+  <div class="col s12">
     <h2>{{ page.title }} <small><span class="faint">{{ page.date | date_to_string }}</span></small></h2>
     {{ page.content }}
   </div>
