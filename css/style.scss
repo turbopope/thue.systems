@@ -1,9 +1,13 @@
 ---
 ---
 
+@import "materialize/components/color";
+@import "colors";
 @import "typography";
+@import "materialize/materialize"
 
-body {
-  width: 80%;
-  margin: 0 auto;
-}
+//
+// body {
+//   width: 80%;
+//   margin: 0 auto;
+// }

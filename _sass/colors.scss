@@ -1,0 +1,14 @@
+$violet: #6000D6;
+$froly: #F77D7D;
+
+$primary-color: $violet;
+$primary-color-light: lighten($primary-color, 50%);
+$primary-color-faint: lighten($primary-color, 80%);
+$primary-color-dark: darken($primary-color, 50%);
+
+$secondary-color: $froly;
+$secondary-color-light: lighten($secondary-color, 50%);
+
+$success-color: color("green", "base");
+$error-color: color("red", "base");
+$link-color: $secondary-color;
