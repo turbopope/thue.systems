@@ -2,24 +2,40 @@
   <div class="container">
     <div class="row">
       <div class="col l6 s12">
-        <h5 class="white-text">Footer Content</h5>
-        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        <h5 class="white-text">{{ site.title }}</h5>
+        <p class="grey-text text-lighten-4">{{ site.description }}</p>
       </div>
       <div class="col l4 offset-l2 s12">
         <h5 class="white-text">Links</h5>
         <ul>
-          <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-          <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-          <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-          <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+          <li>
+            <a class="grey-text text-lighten-3" href="{{ site.website_repo }}">
+              <i class="fa fa-github" aria-hidden="true"></i> Website GitHub
+            </a>
+          </li>
+          <li>
+            <a class="grey-text text-lighten-3" href="{{ site.app_repo }}">
+              <i class="fa fa-gitlab" aria-hidden="true"></i> App GitLab
+            </a>
+          </li>
+          <li>
+            <a class="grey-text text-lighten-3" href="{{ site.bugtracker }}">
+              <i class="fa fa-bug" aria-hidden="true"></i> Bugtracker
+            </a>
+          </li>
+          <li>
+            <a class="grey-text text-lighten-3" href="mailto:{{ site.email }}">
+              <i class="fa fa-envelope" aria-hidden="true"></i> Send us an E-Mail
+            </a>
+          </li>
         </ul>
       </div>
     </div>
   </div>
   <div class="footer-copyright">
     <div class="container">
-    © 2014 Copyright Text
-    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+    © 2016 turbopope
+    <a class="grey-text text-lighten-4 right" href="/impressum/">Impressum</a>
     </div>
   </div>
 </footer>
