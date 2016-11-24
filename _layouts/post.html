@@ -1,0 +1,8 @@
+---
+layout: default
+---
+
+<h2>{{ page.title }} <small><span class="faint">{{ page.date | date_to_string }}</span></small></h2>
+<img src="/img/posts/{{ page.img | default: "default.jpg" }}" alt="{{ page.img }}" style="max-width: 100%; height:auto;">
+
+{{ page.content }}

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-small
 title:  "This Face"
 date:   2016-11-24 00:17:45 +0100
 categories: thue

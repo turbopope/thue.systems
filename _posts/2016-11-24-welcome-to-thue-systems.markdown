@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-small
 title:  "Welcome to thue.systems"
 date:   2016-11-24 00:17:42 +0100
 categories: thue

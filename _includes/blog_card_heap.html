@@ -7,10 +7,10 @@
         <span class="card-title">{{ post.title }}</span>
       </div>
       <div class="card-content">
-        <p><span class="faint">{{ post.date | date_to_string }}</span> {{ post.content | strip_html | truncatewords:75 }}</p>
+        <p><span class="faint">{{ post.date | date_to_string }}</span> {{ post.content | strip_html | truncatewords:25 }}</p>
       </div>
       <div class="card-action">
-        <a href="post.url">Read</a>
+        <a href="{{ post.url }}">Read</a>
       </div>
     </div>
   </div>
