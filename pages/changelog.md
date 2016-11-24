@@ -2,7 +2,7 @@
 title: Changelog
 permalink: /changelog/
 layout: default
-# Please use level-3 headings (###)
+# Please use level-3 headings (###) for each version
 ---
 
 ## Changelog
@@ -10,16 +10,22 @@ layout: default
 Please note that Thue is still in early development and that we reserve the right to skip versions, be inconsistent with version numbers, push builds just when we feel like it and be sloppy with the changelog in gerneral. That is, until some people actually start playing the thing.
 
 
+### Version 0.9.7
+
+This is a hotfix for the audio-issues which emerged from the changes to the `SymbolController`.
+
+* Fix Symbols all playing the same sound
+* Use a new Sound Set
+
+
 ### Version 0.9.6
 
-This version introduces some great features, performace updates and solves world hunger. This is it's description text. Here are the changes:*
+This version introduces some great features, performace updates and solves world hunger. This is it's description text. Here are the changes:
 
-```
 * Did this cool thing
 * And this is also cool
 * This might make some people angry
 * But this is definitely a keeper
-```
 
 
 ### Version 0.9.5

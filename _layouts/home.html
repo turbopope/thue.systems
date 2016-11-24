@@ -22,15 +22,15 @@ layout: default
             <p style="padding-left: 30px">
 
             <br>
-            Version: <code>0.9.6</code>
+            Version: <code>{{ site.latest_version.code }}</code>
             <br>
-            Date: <code>2016-22-23</code>
+            Date: <code>{{ site.latest_version.date }}</code>
             <br>
-            <a href="/changelog#latest">Changelog</a>
+            <a href="/changelog#{{ site.latest_version.anchor }}">Changelog</a>
           </p>
         </div>
         <div class="card-action">
-          <a class="waves-effect waves-teal btn-flat" href="http://dropbox.com/">Download APK</a>
+          <a class="waves-effect waves-teal btn-flat" href="{{ site.latest_version.dropbox_link }}">Download APK</a>
           <a class="waves-effect waves-teal btn-flat primary" href="http://play.google.com/" disabled>Install</a>
         </div>
       </div>
