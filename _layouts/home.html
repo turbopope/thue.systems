@@ -8,8 +8,8 @@ layout: default
 
 
 <div class="row">
+  <h3>{% include spinner.html color="aquamarine" word="Download" %}</h3>
   <div class="col m12 l6">
-    <h3>{% include spinner.html color="aquamarine" word="Download" %}</h3>
     <div class="card horizontal">
       <div class="valign-wrapper"><div class="card-image valign" style="max-width: 200px">
         <img src="/img/logo.png" style="max-width: 100%; padding: 8px;">
@@ -19,7 +19,7 @@ layout: default
           <p>
             Download the latest* version of Thue here.
           </p>
-            <p style="padding-left: 30px">
+            <p>
 
             <br>
             Version: <code>{{ site.latest_version.code }}</code>
@@ -30,24 +30,65 @@ layout: default
           </p>
         </div>
         <div class="card-action">
-          <a class="waves-effect waves-teal btn-flat" href="{{ site.latest_version.dropbox_link }}">Download APK</a>
+          <a class="waves-effect waves-purple btn" href="{{ site.latest_version.dropbox_link }}">Download APK</a>
+        </div>
+      </div>
+    </div>
+    <p><small>* Thue is still in <a href="https://en.wikipedia.org/wiki/Software_release_life_cycle#Pre-alpha">Pre-alpha</a> and even the latest version will be broken, incomplete, ugly and boring.</small></p>
+  </div>
+  <div class="col m12 l6">
+    <div class="card horizontal">
+      <div class="valign-wrapper"><div class="card-image valign" style="max-width: 200px">
+        <img src="/img/logo.png" style="max-width: 100%; padding: 8px;">
+      </div></div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p>
+            Install Thue from the Play Store.**
+          </p>
+            <p>
+
+            <br>
+            Version: <code>{{ site.latest_version.code }}</code>
+            <br>
+            Date: <code>{{ site.latest_version.date }}</code>
+            <br>
+            <a href="/changelog#{{ site.latest_version.anchor }}">Changelog</a>
+          </p>
+        </div>
+        <div class="card-action">
           <a class="waves-effect waves-teal btn-flat primary" href="http://play.google.com/" disabled>Install</a>
         </div>
       </div>
     </div>
-    <p><small>* Thue is still in <a href="https://en.wikipedia.org/wiki/Software_release_life_cycle#Pre-alpha">Pre-alpha</a> and even the latest version might be broken, incomplete, ugly and/or boring.</small></p>
+    <p><small>** Thue has not been released yet</p>
   </div>
-  <div class="col m12 l6">
-    <h3>{% include spinner.html color="mint" word="Preview" %}</h3>
-    <img src="/img/preview.png" style="max-width: 98%;">
+
+</div>
+
+<div class="row">
+  <h3>{% include spinner.html color="mint" word="Preview" %}</h3>
+  <div class="col m12 offset-l1 l2">
+    <img src="/img/tutorial/1.png" style="max-width: 100%;" class="center-align">
+    Look at some Blocks!
+  </div>
+  <div class="col m12 offset-l1 l4">
+    <img src="/img/tutorial/2.png" style="max-width: 100%;" class="center-align">
+    Select some Blocks!
+  </div>
+  <div class="col m12 offset-l1 l2">
+    <img src="/img/tutorial/3.png" style="max-width: 100%;" class="center-align">
+    Pause the Game for no reason!
   </div>
 </div>
 
-
-<h3>{% include spinner.html color="heliotrope" word="Latest Ramblings" %}</h3>
-
-<ul>
-{% for post in site.posts %}
-    <li><a href="{{ post.url }}">{{ post.date | date_to_string }} - {{ post.title }}</a></li>
-{% endfor %}
-</ul>
+<div class="row">
+  <h3>{% include spinner.html color="heliotrope" word="Latest Rambles" %}</h3>
+  <div class="col s12">
+    <ul>
+    {% for post in site.posts %}
+        <li><a href="{{ post.url }}">{{ post.date | date_to_string }} - {{ post.title }}</a></li>
+    {% endfor %}
+    </ul>
+  </div>
+</div>
