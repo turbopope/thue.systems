@@ -21,6 +21,17 @@ body {
       font-size: 15pt;
     }
   }
+
+  p {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  code {
+    font-family: 'Roboto-Mono', monospace;
+    font-size: 11pt;
+    font-weight: 300;
+    line-height: 11pt;
+  }
 }
 
 strong { font-weight: 700; }
