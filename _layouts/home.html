@@ -84,11 +84,5 @@ layout: default
 
 <div class="row">
   <h3>{% include spinner.html color="heliotrope" word="Latest Rambles" %}</h3>
-  <div class="col s12">
-    <ul>
-    {% for post in site.posts %}
-        <li><a href="{{ post.url }}">{{ post.date | date_to_string }} - {{ post.title }}</a></li>
-    {% endfor %}
-    </ul>
-  </div>
+  {% include blog_card_heap.html limit=3 %}
 </div>
