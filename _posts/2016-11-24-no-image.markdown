@@ -1,7 +1,0 @@
----
-layout: post-small
-title:  "No img specified"
-date:   2016-11-24 00:17:43 +0100
-categories: thue
----
-This is a post that specifies no image and should default to some paper.
