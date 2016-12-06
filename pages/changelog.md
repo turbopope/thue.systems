@@ -10,6 +10,16 @@ layout: default
 Please note that Thue is still in early development and that we reserve the right to skip versions, be inconsistent with version numbers, push builds just when we feel like it and be sloppy with the changelog in gerneral. That is, until some people actually start playing the thing.
 
 
+### Version 0.9.8
+
+Patches the game into useable state for writing the tutorial.
+
+```
+* Condensed gaps between symbols
+* Made Arcade systems much harder and "puzzle-like"
+```
+
+
 ### Version 0.9.7
 
 This is a hotfix for the audio-issues which emerged from the changes to the `SymbolController`.
