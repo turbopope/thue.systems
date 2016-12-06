@@ -1,6 +1,6 @@
 ---
 layout: post-small
-title:  "Bushes of Love"
+title:  "Bushes of Love and Shit yo"
 date:   2016-12-06 09:05:00 +0100
 categories: thue
 ---
