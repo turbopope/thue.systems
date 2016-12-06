@@ -7,17 +7,14 @@ layout: default
 </p>
 
 <div class="row">
+  <div class="col"><h2>{% include spinner.html color="anakiwa" word=page.title %}<small><span class="faint" style="margin-left:8px;">{{ page.date | date_to_string }}</span></small></h2></div>
+
   {% if page.img %}
-  <div class="col s12 m6">
-    <img src="/img/posts/{{ page.img | default: "default.jpg" }}" alt="{{ page.img }}" style="max-width: 100%; height:auto; padding: 12px">
-  </div>
-  <div class="col s12 m6">
-    <h2>{{ page.title }} <small><span class="faint">{{ page.date | date_to_string }}</span></small></h2>
-    {{ page.content }}
+  <div class="col s12 l6">
+    <p><img src="/img/posts/{{ page.img }}" alt="{{ page.img }}" style="max-width: 100%; height:auto; padding: 0px"></p>
   </div>
   {% endif %}
-  <div class="col s12">
-    <h2>{{ page.title }} <small><span class="faint">{{ page.date | date_to_string }}</span></small></h2>
+  <div class="col s12 l6">
     {{ page.content }}
   </div>
 </div>
