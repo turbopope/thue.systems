@@ -10,6 +10,18 @@ layout: default
 Please note that Thue is still in early development and that we reserve the right to skip versions, be inconsistent with version numbers, push builds just when we feel like it and be sloppy with the changelog in gerneral. That is, until some people actually start playing the thing.
 
 
+### Version 0.10.3
+
+Introduces music and a timer.
+
+```
+* Remove Problem sounds
+* Add a timer that ends the game
+* Add background music
+* Display win- and lose-messages
+```
+
+
 ### Version 0.9.8
 
 Patches the game into useable state for writing the tutorial.
