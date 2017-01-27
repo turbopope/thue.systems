@@ -1,0 +1,13 @@
+---
+layout:     post
+title:      "Minimalist Approach"
+date:       2017-01-27 20:25:00 +0100
+categories: thue
+---
+In the two months since we launched this website, things have been slow for our little project. Progress was made, but at a snail's pace. This is because our studies and jobs require a lot of attention and it is not always easy to carve out some time for a starry-eyed, adventurous side-project.
+
+After doing some soul-searching and questioning of our life choices, we came to the conclusion that this game is something we that we definitely want to see through, even if it's just for ourselves, efen if it's just to see how much gamification can be crammed into a topic from theoretical computer science. To make this possible, we wished our dreams of a campaign mode goodbye and decided to expend continuous effort on producing the smallest possible, playable (and having-fun-able) prototype. And use this blog, for whatever that's worth.
+
+So here it is, the first real blog-entry with more than 15 words (the other two both have exactly 15, I counted them -- that is, if you count that emoji as a word)! Will it fade into obscurity or will it go down in history as one of many milestones of a games-companies way to superstardom? Probably the former. But there you go.
+
+We're releasing version `0.10.3` today, which mean's we'll update the link on the homepage to the latest super-arbitrary development build that's lying around in our Dropbox folder. It's probably breaking more things than it's improving, but **does** introduce music and a timer, which makes the game feel considerably more game-like (but also a lot more stressful -- we're already doubling down on our minimalist-resolution and thinking about a *Zen* mode without the timer). If you want to give it a spin (remember: Spin to Win) and give us feedback, we'd greatly appreciate an email or something.
