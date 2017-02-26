@@ -31,8 +31,23 @@ body {
     font-size: 11pt;
     font-weight: 300;
     line-height: 11pt;
-    color: $secondary-color;
-    background-color: $secondary-color-faint;
+    // color: $secondary-color;
+    // background-color: $secondary-color-faint;
+  }
+
+  .changelog {
+    pre {
+      padding: 4px;
+      border: 1px solid $secondary-color;
+      border-radius: 4px;
+      background-color: $secondary-color-fainter;
+      line-height: 13px;
+    }
+
+    code {
+      color: black;
+      font-size: 13px;
+    }
   }
 }
 

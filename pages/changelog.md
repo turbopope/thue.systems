@@ -1,7 +1,7 @@
 ---
 title: Changelog
 permalink: /changelog/
-layout: default
+layout: changelog
 # Please use level-3 headings (###) for each version
 ---
 

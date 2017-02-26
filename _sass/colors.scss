@@ -9,6 +9,7 @@ $primary-color-dark: scale-color($primary-color, $lightness: -50%);
 $secondary-color: $froly;
 $secondary-color-light: scale-color($secondary-color, $lightness: 50%);
 $secondary-color-faint: scale-color($secondary-color, $lightness: 80%);
+$secondary-color-fainter: scale-color($secondary-color, $lightness: 90%);
 
 $success-color: color("green", "base");
 $error-color: color("red", "base");
