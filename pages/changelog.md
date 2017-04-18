@@ -10,6 +10,21 @@ layout: changelog
 Please note that Thue is still in early development and that we reserve the right to skip versions, be inconsistent with version numbers, push builds just when we feel like it and be sloppy with the changelog in gerneral. That is, until some people actually start playing the thing.
 
 
+### Version 0.11.0
+
+Introduces new controls, and a bunch random fixes and additions.
+
+```
+* Major code refactoring
+* New logo
+* Add a mute button
+* Add bigger and more visible bounds to rules
+* Fix a bug where the game sometimes produced empty systems
+* Improve automatic scaling of the camera
+* Move reset button in status bar
+* Make the controls behave like a cursor
+```
+
 ### Version 0.10.3
 
 Introduces music and a timer.
